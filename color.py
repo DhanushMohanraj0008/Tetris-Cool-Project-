@@ -7,8 +7,11 @@ class Colors:
         purple = (166, 0, 247)
         cyan = (21, 204, 209)
         blue = (13, 64, 216)
+        white = (255,255,255)
+        dark_blue = (44, 44, 127)
+        light_blue = (59, 85, 162)
 
-        @classmethod  # recep - returns data that belongs to class entirely , without the needing object and flexible for reuse 
+        @classmethod  # recep - returns data that belongs to class entirely , without the needing object and flexible for reuse   #w2schools
         def get_cell_colors(cls):
             return [cls.dark_grey, cls.green, cls.red, cls.orange, cls.yellow, cls.purple, cls.cyan, cls.blue]
 
